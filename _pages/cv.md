@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-For the complete version of CV, please check **[here]**(http://shijieyao.github.io/files/cv.pdf).
+For the complete version of CV, please check [**here**](http://shijieyao.github.io/files/cv.pdf).
 
 Education
 ======
