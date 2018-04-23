@@ -1,7 +1,7 @@
 ---
 permalink: /blog_posts/
 
-excerpt: "About me"
+excerpt: "Blog Posts"
 author_profile: true
 redirect_from: 
   - /blog_posts/
