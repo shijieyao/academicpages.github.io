@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shijie Yao"
 title_separator          : "-"
 name                     : &name "Shijie Yao"
-description              : &description "NLPer, MSc student at the University of Edinburgh"
+description              : &description "NLPer"
 url                      : https://shijieyao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shijieyao.github.io"
@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Shijie Yao"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "NLPer, MSc in Speech and Language Processing @ University of Edinburgh"
+  location         : "Edinburgh, UK"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : 
+  email            : yaoshijie628@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -95,16 +95,16 @@ author:
   github           : "academicpages"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : shijie.y628
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/shijieyao628/"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
