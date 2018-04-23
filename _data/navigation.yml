@@ -1,13 +1,13 @@
 # main links links
 main: About
-  - title: "About"
-    url: /about/
+  - title:"About"
+  url: /about/
     
-  - title: "CV"
-    url: /cv/
+  - title:"CV"
+  url: /cv/
     
-  - title: "Blog Posts"
-    url: /blog_posts/
+  - title:"Blog Posts"
+  url: /blog_posts/
     
-  - title: "Life"
-    url: /life/
+  - title:"Life"
+  url: /life/
