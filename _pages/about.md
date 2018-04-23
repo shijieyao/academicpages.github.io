@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-**NLPer**
 ======
+**NLPer**
 
 **Computational Linguist**
 
