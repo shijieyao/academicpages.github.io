@@ -4,14 +4,11 @@ main:About
   - title: "About"
     url: /about/
     
-  - title: "Academic"
-    url: /academic/
+  - title: "CV"
+    url: /cv/
     
-  - title: "Photography"
-    url: /photography/
-        
   - title: "Blog Posts"
     url: /blog_posts/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Life"
+    url: /life/
