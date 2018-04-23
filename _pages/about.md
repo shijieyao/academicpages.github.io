@@ -14,7 +14,7 @@ redirect_from:
 
 **Machine Learning Embracer**
 
-**Amateur Photographer**
+**Amateur Photographer, singer and dubber in Japanese**
 
 <!---A data-driven personal website
 ======
