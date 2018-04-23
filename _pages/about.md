@@ -17,11 +17,11 @@ redirect_from:
 **Amateur Photographer, Singer and Dubber in Japanese**
 
 <br>
-"I like ambiguity when I like ambiguity, but I don't like ambiguity when I don't like ambiguity." -- Me
+*I like ambiguity when I like ambiguity, but I don't like ambiguity when I don't like ambiguity.* -- Me
 
 <br>
 <br>
-<span style="align-right"> Last Update: 23:57 (GMT) 23/04/2018 @Edinburgh, UK </span>
+Last Update: 23:57 (GMT) 23/04/2018 @Edinburgh, UK
 
 
 <!---A data-driven personal website
