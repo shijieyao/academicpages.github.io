@@ -4,13 +4,10 @@ main:
     url: /about/
 
   - title: "CV"
-    url: /cv/    
+    url: /cv/
 
   - title: "Blog Posts"
-    url: /blog_posts/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+    url: /blog_posts/
         
   - title: "Life"
     url: /life/
