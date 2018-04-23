@@ -27,6 +27,7 @@ Skills
 ======
 * Natural languages: Mandarin, Shanghai-based Wu dialect, English, Japanese
 * Artificial languages: Python, Shell, HTML, CSS, LaTeX
+* Other secret skills: Running CKY algorithm smoothly and flawlessly, communicating with other ~nerds~ geeks via lambda meaning representations :-P
 
 <!--- Publications
 ======
