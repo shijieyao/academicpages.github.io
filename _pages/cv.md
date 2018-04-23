@@ -11,21 +11,14 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* M.Sc. in Speech and Language Processing, the University of Edinburgh, 2017 - 2018
+* B.A. in Japanese language and literature, Shanghai Jiao Tong University, 2013 - 2017
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2017: English data program specialist
+  * liulishuo, Shanghai
+  * Duties included: Data cleansing by Python; Natural language annotation
   
 Skills
 ======
