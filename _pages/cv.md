@@ -13,9 +13,9 @@ For the complete version of CV, please check [**here**](http://shijieyao.github.
 
 Education
 ======
-* M.Sc. in Speech and Language Processing, the University of Edinburgh, :uk:, 2017 - 2018
-* B.A. in Japanese language and literature, Shanghai Jiao Tong University, :cn:, 2013 - 2017
-* Exchange study in Inter-cultural Studies, Kobe University, :jp:, 2015-2016
+* M.Sc. in Speech and Language Processing, the University of Edinburgh, 2017 - 2018
+* B.A. in Japanese language and literature, Shanghai Jiao Tong University, 2013 - 2017
+* Exchange study in Inter-cultural Studies (Linguistics), Kobe University, 2015 - 2016
 
 Work experience
 ======
