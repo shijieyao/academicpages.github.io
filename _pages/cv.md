@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+For the complete version of CV, please check [here.](http://shijieyao.github.io/files/cv.pdf)
+
 Education
 ======
 * M.Sc. in Speech and Language Processing, the University of Edinburgh, 2017 - 2018
