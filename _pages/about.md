@@ -38,7 +38,7 @@ Meanwhile, some part of my mind is unavoidably westernised. I embrace individual
 
 
 <br>
-My academic interest lies in artificial intelligence, espeically natural language processing (NLP). Exploring the ambiguity and uncertainty in this field has become one of my main motivation for living.
+My academic interest lies in artificial intelligence, especially natural language processing (NLP). Exploring the ambiguity and uncertainty in this field has become one of my main motivation for living.
 
 
 <br>
