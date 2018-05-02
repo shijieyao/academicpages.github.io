@@ -30,7 +30,7 @@ I've spent 20 years in Shanghai, 1 year in Kobe (Japan) as an exchange student, 
 
 <br>
 My undergraduate was in Japanese language and literature, which brought me to Japan and more broadly, East Asia.
-I treasure the bond bring up the countries in East Asia together, namely China, Japan and Korea.
+I treasure the bond bringing up the countries in East Asia together, namely China, Japan and Korea.
 
 
 <br>
