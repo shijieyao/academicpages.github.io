@@ -14,14 +14,24 @@ redirect_from:
 
 **Machine Learning Embracer**
 
-**Amateur Photographer, Singer and Dubber in Japanese**
+**Amateur Photographer, Pianist, Singer and Dubber in Japanese**
 
 <br>
-*I like ambiguity when I like ambiguity, but I don't like ambiguity when I don't like ambiguity.* -- Me
-
+*I'd like to skip skip-gram.* -- Me (when reviewing NLU)
 <br>
+I was brought up by a traditional Chinese family in the city of Shanghai, China.
 <br>
-Last Update: 00:30 (GMT) 24/04/2018 @Edinburgh, UK
+I've spent 20 years in Shanghai, 1 year in Kobe (Japan) as an exchange student, and now 1 year in Edinburgh (UK) pursuing my Master degree.
+<br>
+My undergraduate was in Japanese language and literature, which brought me to Japan and more broadly, East Asia.
+I treasure the bond bring up the countries in East Asia together, namely China, Japan and Korea.
+<br>
+Meanwhile, some part of my mind is unavoidably westernised. I embrace individualism, by which I believe makes everyone unique.
+<br>
+My academic interest lies in artificial intelligence, espeically natural language processing (NLP). Exploring the ambiguity and uncertainty in this field has become one of my main motivation for living.
+<br>
+During my spare time, I hang out the city with my camera. Everything is worth recording. I used to play the piano, but now am also a beginner of ukelele.
+Last Update: 19:58 (GMT) 02/05/2018 @Edinburgh, UK
 
 
 <!---A data-driven personal website
