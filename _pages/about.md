@@ -18,6 +18,7 @@ redirect_from:
 
 <br>
 *BPE is the panacea.* -- Me (when reviewing MT)
+<br>
 *I'd like to skip skip-gram.* -- Me (when reviewing NLU)
 
 
