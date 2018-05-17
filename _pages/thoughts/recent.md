@@ -1,4 +1,11 @@
-<h2>What's wrong with me recently!</h2>
+---
+layout: archive
+title: "Thoughts"
+permalink: /thoughts/recent.md
+author_profile: true
+---
+
+<h2>So, what's wrong with me recently?!</h2>
 
 **Books** I've been reading recently:
 * May 2018
