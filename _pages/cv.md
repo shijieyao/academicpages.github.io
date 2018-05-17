@@ -32,14 +32,14 @@ Skills
 Writing Portfolio
 ======
 In Shanghai Jiao Tong University
-* [**A Study about Ateji in Japanese Popular Song Lyrics**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/ba_thesis.pdf) as _Bachelor thesis_ (abstract in Chinese, Japanese and English, main body in Japanese)
+* [**A Study about Ateji in Japanese Popular Song Lyrics**](http://shijieyao.github.io/files/ba_thesis.pdf) as _Bachelor thesis_ (abstract in Chinese, Japanese and English, main body in Japanese)
 
 In University of Edinburgh
-* [**Text-to-Speech using Festival**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/SP1.pdf) for _Speech Processing_
-* [**Speech Recognition: Digit Recogniser**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/SP2.pdf) for _Speech Processing_
-* [**Unit Selection Voice Report**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/SS.pdf) for _Speech Synthesis_
-* [**Japanese Morphological Analysis**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/TNLP.pdf) for _Topics in Natural Language Processing_
-* [**Case Study of Otohime in Japan's toilets**](https://github.com/shijieyao/shijieyao.github.io/blob/master/files/THF_case_study.pdf) for _The Human Factor: Working with Users_
+* [**Text-to-Speech using Festival**](http://shijieyao.github.io/files/SP1.pdf) for _Speech Processing_
+* [**Speech Recognition: Digit Recogniser**](http://shijieyao.github.io/files/SP2.pdf) for _Speech Processing_
+* [**Unit Selection Voice Report**](http://shijieyao.github.io/files/SS.pdf) for _Speech Synthesis_
+* [**Japanese Morphological Analysis**](http://shijieyao.github.io/files/TNLP.pdf) for _Topics in Natural Language Processing_
+* [**Case Study of Otohime in Japan's toilets**](http://shijieyao.github.io/files/THF_case_study.pdf) for _The Human Factor: Working with Users_
 
 
 <!--- Publications
