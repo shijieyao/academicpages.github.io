@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Recent"
 permalink: /thoughts/recent.md/
 author_profile: true
 ---
