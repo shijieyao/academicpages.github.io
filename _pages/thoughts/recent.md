@@ -5,7 +5,7 @@ permalink: /thoughts/recent.md
 author_profile: true
 ---
 
-<h2>So, what's wrong with me recently?!</h2>
+<h2>So, what's going on with me most recently?!</h2>
 
 **Books** I've been reading recently:
 * May 2018
