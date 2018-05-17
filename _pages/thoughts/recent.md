@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: "Thoughts"
 permalink: /thoughts/recent.md
+
+excerpt: "Recent"
 author_profile: true
+redirect_from: 
+  - /thoughts/recent.md
 ---
 
 <h2>So, what's going on with me most recently?!</h2>
