@@ -1,10 +1,8 @@
 ---
-permalink: /thoughts/recent.md
-
-excerpt: "Recent"
+layout: archive
+title: "Recent"
+permalink: /thoughts/recent.md/
 author_profile: true
-redirect_from: 
-  - /thoughts/recent.md
 ---
 
 <h2>So, what's going on with me most recently?!</h2>
