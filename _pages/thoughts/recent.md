@@ -35,7 +35,7 @@ author_profile: true
   * DMZ i.e. Demilitarised Zone
   * boarder shared by China and North Korea i.e. Yalu River and Tumen River
 * South Korea
-  * 1 million dancing courses
+  * [**1 million dancing courses**](http://www.1milliondance.com/class/)
 * Singapore
   * walking around the country/city on foot
 * Saipan -- Northern Mariana Islands
