@@ -7,6 +7,6 @@
 
 <h2>Shell (Bash)</h2>
 
-- `cut`, `awk` and `sed`: use both to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
+- `cut`, `awk` and `sed`: combine three to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g. `awk 'BEGIN {RS='\n'; FS='\n\n'}' ${oldfile} | cut -f ${column_num} ${oldfile} | sed '/^#/ d' > ${newfile}` # `RS` and `FS` defines the beginning and the end of a block in the `${oldfile}` -- in a corpus, a sentence together wiht its word-level annotation usually constitutes a block; `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.
   
