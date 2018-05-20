@@ -9,7 +9,8 @@
 - [**tuple/list comparson**](https://docs.python.org/3/reference/expressions.html#value-comparisons): tuples and lists are compared lexicographically.
   - e.g. `(1, 2) < (2, 1) == True` # as the first tuple _comes_ before the second one
   - e.g. `[2, 3] < [1, 8] == False`
-  
+
+======================================================================================
 
 <h2>Shell (Bash)</h2>
 
