@@ -11,9 +11,7 @@
 
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
-    ```awk 'BEGIN {RS='\n'; FS='\n\n'}' ${oldfile} | \ # doesn't work as expected...
-  
-     cut -f ${column_num} ${oldfile} | \
+     ```cut -f ${column_num} ${oldfile} | \
             
      sed '/^#/ d' > ${newfile}```
      
