@@ -16,7 +16,7 @@
             
      `sed '/^#/ d' > ${newfile}`
      
-     `# `RS` and `FS` defines the beginning and the end of a block in the `${oldfile}` -- in a corpus, a sentence together wiht its word-level annotation usually constitutes a block; `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.`
+     `RS` and `FS` defines the beginning and the end of a block in the `${oldfile}` -- in a corpus, a sentence together wiht its word-level annotation usually constitutes a block; `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.
 - for search, can use `awk`, `sed` or more generally `grep`
   - e.g. `awk '/<something>/' ${file}`  `sed -n '/<something>/p' ${file}` `grep "something" ${file}`
 - use `sed` to delete a specific line from a file
