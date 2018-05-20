@@ -11,10 +11,9 @@
 
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
-     
-     `cut -f ${column_num} ${oldfile} | \`
-            
-     `sed '/^#/ d' > ${newfile}`
+  
+      `cut -f ${column_num} ${oldfile} | \
+      sed '/^#/ d' > ${newfile}`
      
      `RS` and `FS` defines the beginning and the end of a block in the `${oldfile}` -- in a corpus, a sentence together wiht its word-level annotation usually constitutes a block; `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.
 - for search, can use `awk`, `sed` or more generally `grep`
