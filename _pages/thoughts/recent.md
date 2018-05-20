@@ -26,6 +26,8 @@ author_profile: true
   * Macau
     * Basic Law Memorial Hall
   * Taiwan Province
+  * Jilin
+    * Baishan (Linjiang)
 * Japan
   * Fukushima
     * Fukushima Daiichi Nuclear Power Plant
@@ -33,7 +35,7 @@ author_profile: true
 * North Korea
   * Pyongyang
   * DMZ i.e. Demilitarised Zone
-  * boarder shared by China and North Korea i.e. Yalu River and Tumen River
+  * boarder shared by China and North Korea i.e. Yalu River and Tumen River (safer to enter from China side)
 * South Korea
   * [**1 million dancing courses**](http://www.1milliondance.com/class/)
 * Singapore
