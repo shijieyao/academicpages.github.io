@@ -16,7 +16,9 @@
 
 <h3>useful pages</h3>
 
-- [**use commands and pipes to "mine" and extract data**](http://teaching.idallen.com/cst8207/13w/notes/805_data_mining.html);
+- [**use commands and pipes to "mine" and extract data**](http://teaching.idallen.com/cst8207/13w/notes/805_data_mining.html)
+
+- [**`sed`**](https://edoras.sdsu.edu/doc/sed.html)
 
 <h3>tips</h3>
 
