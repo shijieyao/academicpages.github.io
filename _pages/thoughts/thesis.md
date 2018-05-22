@@ -50,3 +50,18 @@ Meeting with my smart supervisor.
 
 Start with reading the code! get it worked at least!
 
+
+<h3>17/May/2018</h3>
+
+The corpus was ordered!
+
+But have to wait for a long time.
+
+"Old school snail mail" -- Sxxxx
+
+
+<h3>22/May/2018</h3>
+
+Guilty, for the past few days.
+
+Started reading [_**The Girl with Seven Names**_](TODO: add link here).
