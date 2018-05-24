@@ -72,3 +72,13 @@
       The inner `$(sort ${file} | uniq -d)` lists each line that occurs more than once. The outer `grep -nFx` looks again `${file}` for exact `-x` matches to any of these lines `-F` and prepends their line number `-n`.
       
 - 
+
+======================================================================================
+
+<h2>Mamechishiki 豆知識</h2>
+
+- Mebibyte (MiB): 1 MiB = 2<sup>20</sup> bytes = 1024 kibibytes = 1,048,576 bytes
+    
+  1 MB = 1,000,000 (10<sup>6</sup>) bytes
+    
+- ddd
