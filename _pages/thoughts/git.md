@@ -1,3 +1,6 @@
+- instantly share code, notes, and snippets
+  - [GitHubGist](https://gist.github.com)
+
 - check ignored files
   - `git status --ignored`
   
