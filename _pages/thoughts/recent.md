@@ -42,3 +42,6 @@ author_profile: true
   * walking around the country/city on foot
 * Saipan -- Northern Mariana Islands
   * Suicide Cliff
+
+**Things** I wanna do soon:
+* Get a random white T-shirt and ask for everybody's signature!

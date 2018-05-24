@@ -27,29 +27,29 @@
 
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
-  
+
       ```
       cut -f ${column_num} ${oldfile} | \
       sed '/^#/ d' > ${newfile}
       ```
-     
+
      `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.
-     
+
 - for search, can use `awk`, `sed` or more generally `grep`
   - e.g.
-  
+
       ```awk '/<something>/' ${file}```
-      
+
       ```sed -n '/<something>/p' ${file}```
-      
-      ```grep "something" ${file}```
-      
+
+      ```grep 'something' ${file}```
+
 - use `sed` to delete a specific line from a file
   - `sed '1d' ${file}` to remove the first line from the file
-  
+
 - use `awk` to extract structured information
   - [**e.g.**](https://www.funtoo.org/Awk_by_Example,_Part_2)
-  
+
       ```
       BEGIN {
           FS="\n"
@@ -59,26 +59,55 @@
       }
       { print $1 $2 $3 }
       ```
-      
+
       This will save the above as awk.awk and `awk -f awk.awk ${file}` to print out concatenated the first three items on each line in a block defined by `FS="\n"`(each field appears on its own line) and `RS=""`(each record is separated by a blank line), demilited by `OFS=", "`, with each line ending with `ORS="\n\n"`.
 
 - combine `grep` and `sort` to search for repeated lines with line number
   - [**e.g.**](https://unix.stackexchange.com/questions/113719/unix-command-to-check-if-any-two-lines-in-a-file-are-same/113761)
-  
+
       ```
       grep -nFx "$(sort ${file} | uniq -d)" ${file}
       ```
 
       The inner `$(sort ${file} | uniq -d)` lists each line that occurs more than once. The outer `grep -nFx` looks again `${file}` for exact `-x` matches to any of these lines `-F` and prepends their line number `-n`.
-      
-- 
+
+======================================================================================
+
+<h2>Linux</h2>
+
+- shortcut
+  - switch between workspaces: `Ctrl+Alt+up/down` or `Super+Page Up/Page Down`
+  - re-size the window
+    - `Super+up` (full size)
+    - `Super+down` (smaller)
+    - `Super+left` (left half)
+    - `Super+right` (right half)
+  - switch between windows: `Super/Alt/Ctrl+tab`
+  - switch between input sources: `Super+space`
+  - show all windows in a workspace: `Super`
+
+- ?how to add input source such as Chinese/Japanese?
+
+======================================================================================
+
+<h2>Atom</h2>
+
+- preview `.md`: `Ctrl+Shift+m`
+
+======================================================================================
+
+<h2>Sublime Text</h2>
+
+======================================================================================
+
+<h2>Good to know (better late than never)</h2>
+
+- Active learning: the learning algorithm can figure out what kind of data they need most and query the users! whoa kewl!
 
 ======================================================================================
 
 <h2>Mamechishiki 豆知識</h2>
 
 - Mebibyte (MiB): 1 MiB = 2<sup>20</sup> bytes = 1024 kibibytes = 1,048,576 bytes
-    
+
   1 MB = 1,000,000 (10<sup>6</sup>) bytes
-    
-- ddd
