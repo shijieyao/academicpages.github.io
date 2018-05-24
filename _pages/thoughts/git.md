@@ -17,4 +17,6 @@
   are terminated then try again. If it still fails, a git process
   may have crashed in this repository earlier:
   remove the file manually to continue.```
-  - `rm -f .git/index.lock` [**# remove the `index.lock` file from the `.git` dir`**](https://stackoverflow.com/questions/38004148/another-git-process-seems-to-be-running-in-this-repository)
+  - `rm -f .git/index.lock` [**# remove the `index.lock` file from the `.git` dir**](https://stackoverflow.com/questions/38004148/another-git-process-seems-to-be-running-in-this-repository)
+  
+haha
