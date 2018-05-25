@@ -71,6 +71,10 @@
 
       The inner `$(sort ${file} | uniq -d)` lists each line that occurs more than once. The outer `grep -nFx` looks again `${file}` for exact `-x` matches to any of these lines `-F` and prepends their line number `-n`.
 
+- list non-directory files
+  - [**`ls -p | grep -v /`**](https://unix.stackexchange.com/questions/48492/list-only-regular-files-but-not-directories-in-current-directory) (not a backslash!)
+  - [**`ls -pL | grep -v /`**](https://unix.stackexchange.com/questions/48492/list-only-regular-files-but-not-directories-in-current-directory) to dereference symbolic links
+
 ======================================================================================
 
 <h2>Linux</h2>

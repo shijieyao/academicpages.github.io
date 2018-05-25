@@ -85,5 +85,46 @@ Kind people who put others before themselves would be the first to die.
 It was the ruthless and the selfish who would survive.
 ```
 
+```
+I thought the old woman's prophecy meant that I would have a career as a professional accordionist and marry someone from another province.
+Maybe I would live in Pyongyang.
+That would be a dream come true.
+Only privileged people lived there.
+I fantasized about this for weeks until an event occurred that obliterated my daydreams and cast a shadow over my whole childhood.
+```
 
-<h2></h2>
+
+<h2>Chapter 8: The secret photograph</h2>
+
+```
+In North Korea family is everything.
+Bloodlines are everything.
+_Songbun_ is everything.
+_He's not my father_.
+```
+
+
+<h2>Chapter 9: To be a good communist</h2>
+
+```
+I did not see much point to this, when I had clothes and boys to think about.
+I did not know that a time would come when I would thank my father in prayers for making me study Chinese.
+It was a gift of great fortune from him.
+One day it would help save my life.
+```
+
+```
+Propoganda seeped into every subject.
+In our geography lesson we used a textbook that showed photographs of parched plots of land, so arid that the mud was cracked.
+'This is a normal farm in South Korea,' the teacher said.
+'Farmers there can't grow rice. That's why the people suffer.'
+Maths textbook questions were sometimes worded emotively.
+'In one battle of the Great Fatherland Liberation War, 3 brave uncles of the Korean People's Army wiped out 30 American imperialist bastards. What was the ratio of the soldiers who fought?'
+```
+
+```
+...
+with tens of thousands chanting 'Long life!' over and over -
+'MAN-SAE! MAN-SAE! MAN-SAE!' -
+the adrenalin was electrifying.
+```

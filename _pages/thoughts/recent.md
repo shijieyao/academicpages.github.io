@@ -32,6 +32,12 @@ author_profile: true
   * Fukushima
     * Fukushima Daiichi Nuclear Power Plant
   * Okinawa
+  * Rito (islands that are disconnected from the main islands)
+    * Yakushima (Kagoshima)
+    * Ikishima (Nagasaki)
+    * Rishirishima (Hokkaido)
+    * Sakushima (Aichi)
+    * Amami Oshima (Kagoshima)
 * North Korea
   * Pyongyang
   * DMZ i.e. Demilitarised Zone
