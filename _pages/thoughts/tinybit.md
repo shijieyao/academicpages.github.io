@@ -10,6 +10,10 @@
   - e.g. `(1, 2) < (2, 1) == True` # as the first tuple _comes_ before the second one
   - e.g. `[2, 3] < [1, 8] == False`
 
+- paths
+  - diff between `sys.path.append(os.path.abspath('path')` and `os.chdir('path')`
+  - when `os.chdir`ing inside a func? what would happen to the current directory if that func being called?
+
 ======================================================================================
 
 <h2>Shell (Bash)</h2>
@@ -24,6 +28,11 @@
 
 - frequent errors (that I usually make!):
   - extra `|` before `<`, especially at the last line before `<`
+  - unlike Python, commands like `a=b=$1` is not allowed, instead, split them as `a=$1; b=$1`
+  - confusing use of `$ bash ${file}` and `$ python ${file}`, double check what type of the file is that I'm running
+
+- [rename file/dir etc](https://www.cyberciti.biz/faq/bash-rename-files/)
+  - rename a file: `mv ${oldname} ${newname}`
 
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
@@ -77,6 +86,16 @@
 
 ======================================================================================
 
+<h2>Markdown</h2>
+
+<h3>useful pages</h3>
+
+- [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+<h3>tips</h3>
+
+======================================================================================
+
 <h2>Linux</h2>
 
 - shortcut
@@ -91,6 +110,13 @@
   - show all windows in a workspace: `Super`
 
 - ?how to add input source such as Chinese/Japanese?
+
+======================================================================================
+
+<h2>Google Sheet</h2>
+
+- [shortcut](https://support.google.com/docs/answer/181110?co=GENIE.Platform%3DDesktop&hl=en)
+  - insert row: `Alt+i+r`
 
 ======================================================================================
 

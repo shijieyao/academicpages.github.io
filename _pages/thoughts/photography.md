@@ -7,3 +7,6 @@
 <h2>Tricks/Thoughts</h2>
 
 - keep the pic _clean_ (generally no more than 3 or 4 colours)
+- object
+  - shadow (recall the fidget cube! long and deep shadow, v??nette)
+  - clean (literally nothing else)
