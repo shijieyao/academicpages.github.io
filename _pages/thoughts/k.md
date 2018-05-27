@@ -1,3 +1,5 @@
+[.](https://www.cheollimacivildefense.org/?page=3)
+
 [.](https://www.northkoreatech.org/2011/10/03/kim-han-sols-internet-footprint/)
 [.](http://english.chosun.com/site/data/html_dir/2011/10/03/2011100300523.html)
 
