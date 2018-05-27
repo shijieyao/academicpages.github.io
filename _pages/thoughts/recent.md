@@ -24,6 +24,7 @@ author_profile: true
   * Hong Kong
     * Closed Area (curiosity killed the cat...)
   * Macau
+    * the School of Nations
     * Basic Law Memorial Hall
   * Taiwan Province
   * Jilin
