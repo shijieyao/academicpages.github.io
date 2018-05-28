@@ -10,6 +10,10 @@
   - e.g. `(1, 2) < (2, 1) == True` # as the first tuple _comes_ before the second one
   - e.g. `[2, 3] < [1, 8] == False`
 
+- string split
+  - `str.split(sep, maxsplit)`and `str.rsplit(seq, maxsplit)`
+  - e.g. `'a,b,c'.split(',', 1) -> ['a', 'b,c']` vs `'a,b,c'.rsplit(',', 1) -> ['a,b', 'c']`, `r` means reverse, so splitting from the end of the string
+
 - paths
   - diff between `sys.path.append(os.path.abspath('path')` and `os.chdir('path')`
   - when `os.chdir`ing inside a func? what would happen to the current directory if that func being called?

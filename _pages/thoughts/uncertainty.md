@@ -6,7 +6,7 @@ but still looking for better results
 
 dict: separate, combined (combine which ones)
 
-parameters
+parameters: choosing a sensible set of parameters is much harder than expectation! let alone tuning
 
 nobody can tell you everything
 
