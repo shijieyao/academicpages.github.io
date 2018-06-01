@@ -17,9 +17,7 @@ redirect_from:
 **Amateur Photographer, Pianist, Singer and Dubber in Japanese**
 
 <br>
-*BPE is the panacea.* -- Me (when reviewing MT)
-<br>
-*I'd like to skip skip-gram.* -- Me (when reviewing NLU)
+<b>Status: I’m learning Korean and my motivation is to know more about North Korea. I hope someday I could have the opportunity to visit the country and obtain an authentic taste of it by myself. Therefore learning Korean is the pre-requisite ;) never really been into any k-pop or k-drama though XD hope the idea could last longer</b>
 
 
 <br>
@@ -47,7 +45,7 @@ My academic interest lies in artificial intelligence, especially natural languag
 During my spare time, I hang out the city with my camera. Everything is worth recording. I used to play the piano, but now am also a beginner of ukelele.
 
 
-*Last Update: 23:12 (GMT) 17/05/2018 @Edinburgh, UK*
+*Last Update: 00:15 (GMT) 01/06/2018 @Edinburgh, UK*
 
 
 <!---A data-driven personal website
