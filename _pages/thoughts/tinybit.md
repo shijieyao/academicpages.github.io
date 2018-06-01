@@ -18,6 +18,16 @@
   - diff between `sys.path.append(os.path.abspath('path')` and `os.chdir('path')`
   - when `os.chdir`ing inside a func? what would happen to the current directory if that func being called?
 
+- `any()`
+  - `True` if at least one element of an iterable is True
+  - `False` if all elements are false or if an iterable is empty
+
+- `sys.argv`
+  - if multiple consecutive arguments all of the same type, can use `sys.argv[n:]`
+
+- check if file or dir exists
+  - [**a very object-oriented approach**](https://stackoverflow.com/questions/82831/how-to-check-whether-a-file-exists)
+
 ======================================================================================
 
 <h2>Shell (Bash)</h2>
