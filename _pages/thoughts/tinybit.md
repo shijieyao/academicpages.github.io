@@ -38,6 +38,9 @@
 - [rename file/dir etc](https://www.cyberciti.biz/faq/bash-rename-files/)
   - rename a file: `mv ${oldname} ${newname}`
 
+- `mkdir`:
+	- `mkdir -p ${dir_name}` will not prompt `mkdir: ${dir_name}: File exists` if already exists
+
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
 
