@@ -51,6 +51,9 @@
 - `mkdir`:
 	- `mkdir -p ${dir_name}` will not prompt `mkdir: ${dir_name}: File exists` if already exists
 
+- `bc`:
+  - return `0 `or `1`: e.g. `echo "5 > 4 | bc"` returns `1` 
+
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
 
