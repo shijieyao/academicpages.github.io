@@ -34,12 +34,12 @@ Writing Portfolio
 In Shanghai Jiao Tong University
 * [**A Study about Ateji in Japanese Popular Song Lyrics**](http://shijieyao.github.io/files/ba_thesis.pdf) as _Bachelor thesis_ (abstract in Chinese, Japanese and English, main body in Japanese)
 
-In the University of Edinburgh
-* [**Text-to-Speech using Festival**](http://shijieyao.github.io/files/SP1.pdf) for _Speech Processing_
-* [**Speech Recognition: Digit Recogniser**](http://shijieyao.github.io/files/SP2.pdf) for _Speech Processing_
-* [**Unit Selection Voice Report**](http://shijieyao.github.io/files/SS.pdf) for _Speech Synthesis_
-* [**Japanese Morphological Analysis**](http://shijieyao.github.io/files/TNLP.pdf) for _Topics in Natural Language Processing_
-* [**Case Study of Otohime in Japan's toilets**](http://shijieyao.github.io/files/THF_case_study.pdf) for _The Human Factor: Working with Users_
+In the University of Edinburgh (pdf available upon request)
+* **Text-to-Speech using Festival** for _Speech Processing_
+* **Speech Recognition: Digit Recogniser** for _Speech Processing_
+* **Unit Selection Voice Report** for _Speech Synthesis_
+* **Japanese Morphological Analysis** for _Topics in Natural Language Processing_
+* **Case Study of Otohime in Japan's Toilets** for _The Human Factor: Working with Users_
 
 In Kobe University
 (to be added soon...)
