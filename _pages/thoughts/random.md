@@ -30,3 +30,10 @@
 
   machine learning w/ emoji: emoji prediction; creation / generation; how is emoji named in Unicode?
   </p>
+
+<h2>12 June 2018</h2>
+
+  <p>
+  N-gram based English Grammar correction (or maybe just a better word as substitution?)
+  bag classifier (jessica's cafe ranker)
+  </p>
