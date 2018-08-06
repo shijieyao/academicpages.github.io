@@ -6,7 +6,12 @@
 
 <h3>tips</h3>
 
-- [**tuple/list comparson**](https://docs.python.org/3/reference/expressions.html#value-comparisons): tuples and lists are compared lexicographically.
+- removing items while looping lists: the list is being modified, pay attention to the realtime count of elements in the list
+  - [**better to use list comprehension**](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating): `l = [n for n in l if n != 1]` to remove elements unequal to 1
+
+- changing the starting index of enumerate: `enumerate(something, 1)` will start indexing from 1
+
+- [**tuple/list comparison**](https://docs.python.org/3/reference/expressions.html#value-comparisons): tuples and lists are compared lexicographically.
   - e.g. `(1, 2) < (2, 1) == True` # as the first tuple _comes_ before the second one
   - e.g. `[2, 3] < [1, 8] == False`
 
