@@ -112,11 +112,22 @@
   - [**`ls -p | grep -v /`**](https://unix.stackexchange.com/questions/48492/list-only-regular-files-but-not-directories-in-current-directory) (not a backslash!)
   - [**`ls -pL | grep -v /`**](https://unix.stackexchange.com/questions/48492/list-only-regular-files-but-not-directories-in-current-directory) to dereference symbolic links
 
+- About **```shuf (gshuf)```**
+  - to shuffle text, ```shuf text_to_shuffle.txt```
+  - randomly pick up N lines from a file, [**```gshuf -n N input > output```**](https://stackoverflow.com/questions/9245638/select-random-lines-from-a-file-in-bash)
+
+- About [**```screen```**](https://dev.to/thiht/learn-to-use-screen-a-terminal-multiplexer-gl)
+  - ```screen -ls```
+  - ```screen -x <session ID>```
+
+
 ======================================================================================
 
 <h2>Terminal Hacking</h2>
 
 ```base64```: to encode string, ```base64 <<< string```
+
+
 
 ======================================================================================
 
@@ -168,6 +179,7 @@
 <h2>Good to know (better late than never)</h2>
 
 - Active learning: the learning algorithm can figure out what kind of data they need most and query the users! whoa kewl!
+- [set locale](http://www.iac.es/sieinvens/siepedia/pmwiki.php?n=Tutorials.LinuxLocale): ```export LC_CTYPE=zh_CN.UTF-8``` if Chinese does not show up
 
 ======================================================================================
 
