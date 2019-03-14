@@ -1,10 +1,26 @@
+<h2>Regex</h2>
+
+- Chinese `\u4E00-\u9FA5`
+
+======================================================================================
+
 <h2>Python</h2>
 
 <h3>useful pages</h3>
 
-- <...>
+- [FlashText: alternative of regexp](https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f)
+
+<h3>useful packages</h3>
+
+- `tqdm` for progress bar
+- [pyahocorasick](https://pypi.org/project/pyahocorasick/) for efficient string matching
 
 <h3>tips</h3>
+
+- set instance pointer
+	- `a = b = set()` a and b point to the same object! so they change with each other
+
+- `random.shuffle(list())` in-place, so shouldn't print the NoneType object, instead, should print the original list
 
 - removing items while looping lists: the list is being modified, pay attention to the realtime count of elements in the list
   - [**better to use list comprehension**](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating): `l = [n for n in l if n != 1]` to remove elements unequal to 1
@@ -33,9 +49,32 @@
 - check if file or dir exists
   - [**a very object-oriented approach**](https://stackoverflow.com/questions/82831/how-to-check-whether-a-file-exists)
 
+- print to stdout or file if file specified
+  - ```print(out, file=fout)```
+
+- `sort()` does sorting in place; while `.sorted()` returns a new array as sorted
+
+- `os.system()` to run subshell
+
+- don't overuse `write()`
+
+- `du -h -d1` & `du -sh`: check storage
+
+- use `set()` more to save time!
+
+======================================================================================
+
+<h2>Conda</h2>
+
+- [`conda install notebook ipykernel`](https://stackoverflow.com/questions/30492623/using-both-python-2-x-and-python-3-x-in-ipython-notebook/37857536#comment94230432_37857536)
+
 ======================================================================================
 
 <h2>Shell (Bash)</h2>
+
+<h3>Stupid frequent errors</h3>
+- when running a shell script which includes routes/paths direction, must check them carefully! (especially when there is route/path redirection!
+- if stuck, check line by line! instead of running the whole script
 
 <h3>useful pages</h3>
 
@@ -62,6 +101,10 @@
 - `sed` text replace
   - `sed -i -e 's/few/asd/g' hello.txt` to replace `few` with `asd` in all lines in file `hello.txt`
 
+- `file <file>` check file type else empty
+
+- `awk -F "\t" '{if ($4=="something"){print $0}}' out.anonymous.all.txt | wc -l`: (count lines that have something at the 4th column) use `awk` to catch lines that meet the condition
+
 - combine `cut`, `awk` and `sed` to slice/extract text, often used in text preprocessing (btw Shell is quite ideal for dealing with text)
   - e.g.
 
@@ -71,6 +114,25 @@
       ```
 
      `cut` then extracts the information at the `${column_num}`th column; at the end `sed` `d`eletes all the lines beginning (`^`) with a `#`, and saves the resultant text to `${newfile}`.
+     
+- using `awk` to deal with blocks of data: `awk 'BEGIN{b=0} { if ($1!="========") {printf ("%d\t%s\n", b, $1);} else {b+=1}}' slotsbycluster | sort | uniq -c | sort -k2,2n -k1,1nr`
+     
+- cut using comma as the delimiter
+  - e.g.
+  
+      ```cut -d<delimiter> -f<col> <file>```
+
+- keep unique items only
+  - e.g.
+  
+      ```sort | uniq```
+
+- replace with tab
+  - e.g.
+  
+      ```tr ',' '\t' < <in.file> > <out.file>```
+      
+- remove trailing tabs: `sed 's/[[:blank:]]*$// <file>`
 
 - for search, can use `awk`, `sed` or more generally `grep`
   - e.g.
@@ -120,17 +182,89 @@
   - ```screen -ls```
   - ```screen -x <session ID>```
 
+- permutation
+  - ```echo {a,b}{1,2}``` will return ```a1 a2 b1 b2```
+
+- back to the previous path
+  - `cd -`
+
+- check gpu: `watch -n 1 nvidia-smi`
+
+- check gpu by PID and kill the process: `ps -ef | grep <PID>`; `kill -9 <PID>`
+
+
+======================================================================================
+
+<h2>Java</h2>
+
+- `mvn clean package install`
+
+- to skip UTs, `mvn clean install -DskipTests`
+
+- `ef bb bf`: BOM(byte-order mark)
+
+- use interface names as input arguments but the exact class names as return type: `public static ArrayList<String> func(List<Integer>) {}` can avoid being hard-coded
+
+- `final`: variabes declared as final can only be assigned once
+
+- Data types:
+	* `List<String> l = Arrays.asList("a", "b")`: create a fixed-length array whose elements cannot be added/removed but could be modified like this: `l.set(0, "c")`; however, if created like this: `List<String> l = new Array<String>(Arrays.asList("a", "b"))`, the arraylist could be added/removed of elements
+
+
+
+======================================================================================
+
+<h2>C/C++</h2>
+
+- Do not simply copy complied files to somewhere else. Instead, should `make clean` and compile it again
+
 
 ======================================================================================
 
 <h2>Terminal Hacking</h2>
 
-```base64```: to encode string, ```base64 <<< string```
+- `base64`: to encode string, ```base64 <<< string```
+
+- `Ctrl+C`: to clear the jobs
+
+- `fg`: to check the left jobs
+
+- `htop`: a better looking `top`
+
+- `hexdump`: a hexadecimal view of computer data; usually as part of debugging
 
 
 
 ======================================================================================
 
+<h2>Git</h2>
+
+- add submodule: `git submodule add <url> <dir>`
+- rebase: checkout to the commit(ID) you want to rebase `git rebase master`
+- `git checkout -b`
+- `git checkout -B`
+
+======================================================================================
+
+<h2>Docker</h2>
+
+- list docker images: `sudo docker images`
+- enter a docker image: `sudo docker run -i -t <image ID>`
+- display all docker container IDs: `docker ps -a`; active ones only: `docker ps`
+- copy files from a server to a docker container: `docker cp <file-or-dir> <containerID>:<path>` (while writing path, instead of `~/`, use `/root/`
+- enter a container: `docker exec -it <mycontainer> /bin/bash`
+- restart a dead/inactive container: `docker start <mycontainer>`
+
+
+<h2>SSH</h2>
+
+- ```ssh-add```: add ssh keys to keychain
+
+======================================================================================
+
+<h2>Json</h2>
+
+- format json string: `bejson.com`
 
 <h2>Markdown</h2>
 
@@ -142,7 +276,30 @@
 
 ======================================================================================
 
+<h2>UML</h2>
+
+======================================================================================
+
+
+<h2>XML</h2>
+
+- parse an XML file
+
+	```
+	from xml.etree import ElementTree as ET
+	xml = '/Users/shijieyao/Library/Containers/com.taobao.Aliwangwang/Data/Library/Application Support/AliWangwang/80profiles/DefaultEmotions/EmotionConfig.xml'
+	tree = ET.parse(xml)  
+	root = tree.getroot()
+	
+	for elem in root:
+	    print(elem[0].text)
+	```
+
+======================================================================================
+
+
 <h2>Linux</h2>
+
 
 - shortcut
   - switch between workspaces: `Ctrl+Alt+up/down` or `Super+Page Up/Page Down`
@@ -159,10 +316,24 @@
 
 ======================================================================================
 
+<h2>Excel</h2>
+
+- the first line(s) can be frozened
+
+======================================================================================
+
+
 <h2>Google Sheet</h2>
 
 - [shortcut](https://support.google.com/docs/answer/181110?co=GENIE.Platform%3DDesktop&hl=en)
   - insert row: `Alt+i+r`
+
+======================================================================================
+
+<h2>Jupyter Notebook</h2>
+
+- measure the cell execution time: ```%%time```
+- `jupyter notebook --ip 0.0.0.0`
 
 ======================================================================================
 
@@ -179,7 +350,8 @@
 <h2>Good to know (better late than never)</h2>
 
 - Active learning: the learning algorithm can figure out what kind of data they need most and query the users! whoa kewl!
-- [set locale](http://www.iac.es/sieinvens/siepedia/pmwiki.php?n=Tutorials.LinuxLocale): ```export LC_CTYPE=zh_CN.UTF-8``` if Chinese does not show up
+- [set locale](http://www.iac.es/sieinvens/siepedia/pmwiki.php?n=Tutorials.LinuxLocale): ```export LC_CTYPE=zh_CN.UTF-8``` if Chinese does not show up; for permanent change, write to ~/.bashrc
+- always add a newline `\n` to the end of a file
 
 ======================================================================================
 
