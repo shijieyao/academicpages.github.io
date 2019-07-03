@@ -62,6 +62,16 @@
 
 - use `set()` more to save time!
 
+- argparse.ArgumentParser.add_subparsers(); subparsers.add_parser(FUNCTIONALITY_NAME)
+
+- re.match(pat, str) always from the beginning of the string; re.search(pat, str) not necessarily
+
+- import from module, the ugly way is to append the project path to `sys.path`: `import sys;
+path_to_add = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))));
+sys.path.append(path_to_add)`; the better way is to import by using absolute path and run the module as module `python -m abso_path_to_the_module`
+
+- [mock command line arguments for testing](http://dustinrcollins.com/testing-python-command-line-apps)
+
 ======================================================================================
 
 <h2>Conda</h2>
@@ -210,6 +220,12 @@
 - Data types:
 	* `List<String> l = Arrays.asList("a", "b")`: create a fixed-length array whose elements cannot be added/removed but could be modified like this: `l.set(0, "c")`; however, if created like this: `List<String> l = new Array<String>(Arrays.asList("a", "b"))`, the arraylist could be added/removed of elements
 
+- method signature: method namd and method parameters; regardless of the return type, methods with different method parameters under the same method name are considered overloading methods.
+
+- getters and setters: make the getters and setters public while keeping the member variables private.
+
+- compiler ONLY knows reference type, it can only look in reference type class for method; while runtime follows exact runtime type of object to find method, so must match compile time method signature to appropriate method in actual object's class; so, do this runtime of if x is instanceOf y
+
 
 
 ======================================================================================
@@ -217,6 +233,13 @@
 <h2>C/C++</h2>
 
 - Do not simply copy complied files to somewhere else. Instead, should `make clean` and compile it again
+
+
+======================================================================================
+
+<h2>Testing</h2>
+- smoke testing: as long as it doesn't burn out for the first run
+- acceptance testing: tested for acceptability
 
 
 ======================================================================================
@@ -233,6 +256,8 @@
 
 - `hexdump`: a hexadecimal view of computer data; usually as part of debugging
 
+- `md5`: to generate the md5 sequence for specified file; NB: doesn't work on zip files?
+
 
 
 ======================================================================================
@@ -243,6 +268,34 @@
 - rebase: checkout to the commit(ID) you want to rebase `git rebase master`
 - `git checkout -b`
 - `git checkout -B`
+- `git checkout -D <branch_to_delete>`
+- with arc: `git submodule update --remote --recursive --init`
+- resolve conflicts when `git merge`: [git checkout --ours/their <file>](https://nitaym.github.io/ourstheirs/)
+
+
+======================================================================================
+
+<h2>Front-end</h2>
+
+- event handler: onmouseover, onclick, onchange, etc.
+- slider: `<input type="range" min="10" max="100" value="10" id="sldr" oninput="dosquare()">`
+  `function dosquare() {
+  var d1 = document.getElementById("d1");
+  var sizeinput = document.getElementById("sldr");
+  var size = sizeinput.value;
+  var ctx = d1.getContext("2d");
+  ctx.clearRect(0,0, d1.width, d1.height);
+  ctx.fillStyle="yellow";
+  ctx.fillRect(10,10,size,size);
+}`
+- change color onclick/onchange: `<input type="color" value="#CC1A57" id="clr" onchange="docolor()">`
+  `function docolor() {
+  var d1 = document.getElementById("d1");
+  var colorinput = document.getElementById("clr");
+  var color = colorinput.value;
+  d1.style.backgroundColor = color;
+}`
+- load image: `<input type="file" multiple="false" accept="image/*" id="finput" onchange="uploadImage()">`
 
 ======================================================================================
 
@@ -352,6 +405,9 @@
 - Active learning: the learning algorithm can figure out what kind of data they need most and query the users! whoa kewl!
 - [set locale](http://www.iac.es/sieinvens/siepedia/pmwiki.php?n=Tutorials.LinuxLocale): ```export LC_CTYPE=zh_CN.UTF-8``` if Chinese does not show up; for permanent change, write to ~/.bashrc
 - always add a newline `\n` to the end of a file
+- steganography!
+- ORM: object-relational mapping
+- locale: w/ hexdump
 
 ======================================================================================
 
